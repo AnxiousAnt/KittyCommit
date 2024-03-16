@@ -1,0 +1,11 @@
+#N canvas 761 0 768 809 10;
+#X obj 300 260 print;
+#X obj 290 80 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000;
+#X msg 300 170 test0;
+#X obj 150 200 osc~;
+#X floatatom 140 110 5 0 0 0 - - -, f 5;
+#X symbolatom 430 170 10 0 0 0 - - -, f 10;
+#X connect 1 0 2 0;
+#X connect 2 0 0 0;
+#X connect 4 0 3 0;

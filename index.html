@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KittyCommit: Version Control for Purr-Data</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>KittyCommit: My attempt at Version Control for Purr-Data</h1>
+    </header>
+    
+    <main>
+        <section>
+            <h2>The Void in Version Control for Purr-Data and other Visual Programming Languages</h2>
+            <p>Visual programming languages, with their drag-and-drop interfaces and flow-based programming paradigms, offer a unique approach to software development. They empower users to express logic and algorithms through graphical representations rather than lines of code. Purr-Data, a visual programming environment based on Pure Data (Pd), is one such language that caters to artists, musicians, and multimedia creators. It provides a canvas for creating interactive multimedia patches, but despite its popularity, it lacks a dedicated version control system tailored to its unique needs.</p>
+            <p>Traditional version control systems, such as Git, primarily cater to text-based code repositories. While they can handle binary files, they are less efficient in managing changes to visual programming projects. Visual programming environments often involve complex interconnected nodes, graphical elements with changes in z-order, and metadata, which may not be adequately supported by conventional version control systems. This limitation leaves a void in the toolset of Purr-Data users, hindering their ability to effectively manage and collaborate on projects.</p>
+        </section>
+
+        <section>
+            <h2>Enter KittyCommit: Bridging the Gap</h2>
+            <p>Recognizing the need for a version control solution tailored specifically for Purr-Data, I decided to play around with the challenge and after a few iterations, I was able to implement a basic version control which I call "KittyCommit". Named after the feline charm of Purr-Data and the essence of committing changes, KittyCommit aims to fill the void by providing a basic solution to version control for Purr-Data projects.</p>
+        </section>
+
+        <section>
+            <h2>Description and Functionality</h2>
+            <p>KittyCommit is a version control system that allows me to manage versions (create commits), track changes(view commits) and write commit messages.</p>
+            <ul>
+                <li><strong>Version Creation:</strong> With KittyCommit, users can effortlessly create new versions of their Purr-Data projects. The application prompts users to enter a commit message, capturing the essence of each version. This ensures a clear and concise record of changes over time.</li>
+                <li><strong>Version Display:</strong> KittyCommit allows users to browse and display specific versions of their Purr-Data projects. Users can enter the version number they wish to view, and KittyCommit retrieves the corresponding source code and commit message.</li>
+                <li><strong>User Interface:</strong> KittyCommit comes with a user-friendly interface, making version control accessible to users of all levels.</li>
+            </ul>
+            <p><strong>NOTE: </strong>I've built this using python, and its automation modules, and haven't build this directly into Purr-Data, which I intend to do in the future.</p>
+        </section>
+
+        <section>
+            <h2>Interface</h2>
+        </section>
+
+        <section>
+            <h2>Conclusion</h2>
+            <p>So, to wrap it up, this was my attempt at creating a version control system for Purr-Data, although rudimentary, it gets the job done.</p>
+            <p>There are various improvements that could be made in the future:</p>
+            <ul>
+                <li>Integrating this into Purr-Data, using commands in the console to create and view commits, </li>
+                <li>Develop better techniques to visualize differences in versions/commits.</li>
+                <li>Animations to view the iterative development of a patch - this can be a great learning tool for purr-data.</li>
+                <li>Better UI/UX, and also, maybe create commands for the console to create and view commits.</li>
+                <li>Finally, it would be great to have an online platfrom where people can share, clone patches- maybe a Github for Purr-Data!</li>
+            </ul>
+            <br>
+        </section>
+    </main>
+
+    <footer>
+        <p>Amrut Kotrannavar</p>
+    </footer>
+</body>
+</html>
